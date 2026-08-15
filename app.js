@@ -36,10 +36,10 @@ function Banner() {
 
 function ProductGrid({ title }) {
   const products = [
-    { name: "Classic Denim Jacket", price: "$79.99", img: "https://source.unsplash.com/400x400/?denim,jacket" },
-    { name: "Knit Sweater", price: "$55.00", img: "https://source.unsplash.com/400x400/?knit,sweater" },
-    { name: "Chelsea Boots", price: "$110.00", img: "https://source.unsplash.com/400x400/?chelsea,boots" },
-    { name: "Leather Backpack", price: "$95.00", img: "https://source.unsplash.com/400x400/?leather,backpack" }
+    { name: "Classic Denim Jacket", price: "$79.99", img: "https://images.unsplash.com/photo-1555583743-991174c11425?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+    { name: "Knit Sweater", price: "$55.00", img: "https://images.unsplash.com/photo-1608984361471-ff566593088f?q=80&w=1348&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+    { name: "Chelsea Boots", price: "$110.00", img: "https://images.unsplash.com/photo-1608629601270-a0007becead3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+    { name: "Leather Backpack", price: "$95.00", img: "https://images.unsplash.com/photo-1577733975197-3b950ca5cabe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
   ];
   return (
     <section className="product-grid">
